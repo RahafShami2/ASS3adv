@@ -2,7 +2,7 @@ package edu.najah.cap.ass3;
 import java.awt.*;    
 import java.awt.event.*;    
 
-public class Adapter {     
+public class Adapter implements Connections {     
  Frame f;     
  Adapter() {    
      f = new Frame ("Window Adapter");    
